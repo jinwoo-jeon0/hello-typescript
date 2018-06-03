@@ -1,0 +1,7 @@
+{
+  "name": "hello-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jinwoo Jeon <jinwoo.jeon0@gmail.com>",
+  "license": "MIT"
+}
