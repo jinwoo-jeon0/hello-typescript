@@ -10,6 +10,7 @@ describe('hello', function() {
 
         hello();
 
+        console.log = _log;
         assert.equal(actual.arg, 'hello');
     })
 })
