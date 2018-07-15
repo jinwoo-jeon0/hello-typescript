@@ -14,6 +14,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node .//src/hello.ts"
+    "start": "ts-node ./src/index.ts"
   }
 }
