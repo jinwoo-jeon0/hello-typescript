@@ -1,4 +1,4 @@
-function hello(): void {
+export function hello(): void {
     console.log('hello');
 }
 
