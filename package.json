@@ -15,7 +15,7 @@
   "scripts": {
     "clean": "rm -rf built",
     "prebuild": "yarn clean && yarn test",
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test": "mocha --require ts-node/register ./src/*.test.ts",
     "start": "ts-node ./src/index.ts"
   }
